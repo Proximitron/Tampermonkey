@@ -6,6 +6,8 @@
 // @author       @proximitron
 // @match        https://9gag.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=9gag.com
+// @downloadURL  https://raw.githubusercontent.com/Proximitron/Tampermonkey/main/hide-potz-badge.user.js
+// @updateURL    https://raw.githubusercontent.com/Proximitron/Tampermonkey/main/hide-potz-badge.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
