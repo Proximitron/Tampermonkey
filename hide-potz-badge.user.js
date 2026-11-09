@@ -2,7 +2,7 @@
 // @name         Hide potz-badge elements
 // @namespace    http://tampermonkey.net/
 // @version      2025-12-17
-// @description  Hides all elements with class "potz-badge"
+// @description  Hides all elements with class "potz-badge" and restores the sound toggle
 // @author       @proximitron
 // @match        https://9gag.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=9gag.com
