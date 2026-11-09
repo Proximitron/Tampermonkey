@@ -47,4 +47,16 @@
         childList: true,
         subtree: true
     });
+
+    window.__old9gagVideoClicks?.abort();
+    const c = window.__old9gagVideoClicks = new AbortController;
+    
+    document.addEventListener("click", e => {
+    const t = e.target, p = t.closest?.(".video-post"),
+    v = p?.querySelector("video"), s = p?.querySelector(".sound-toggle");
+    if (!v || v.paused || !s || t.closest(".sound-toggle")) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    s.click();
+    }, {capture: true, signal: c.signal});
 })();
