@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Hide potz-badge elements
+// @name         Hide potz-badge; restore sound toggle
 // @namespace    http://tampermonkey.net/
 // @version      2026-11-09
 // @description  Hides all elements with class "potz-badge" and restores the sound toggle
